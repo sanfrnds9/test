@@ -90,11 +90,12 @@ class PhotosList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     print('test one more comkit from branch1');
 
     print('test/branch2');
     print('test/branch2/onemoreupdateinsamebranch');
+
+    print('test/branch1/commit4');
 
     return GridView.builder(
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
