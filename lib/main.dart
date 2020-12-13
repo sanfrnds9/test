@@ -52,7 +52,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: appTitle,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.blue[200],
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: MyHomePage(title: appTitle),
@@ -90,7 +90,6 @@ class PhotosList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     print('test one more comkit from branch1');
 
     print('test/branch2');
