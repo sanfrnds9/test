@@ -97,7 +97,7 @@ class PhotosList extends StatelessWidget {
 
     return GridView.builder(
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 2,
+        crossAxisCount: 3,
       ),
       itemCount: photos.length,
       itemBuilder: (context, index) {
