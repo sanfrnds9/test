@@ -90,6 +90,7 @@ class PhotosList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print('test/branch2');
     return GridView.builder(
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2,
