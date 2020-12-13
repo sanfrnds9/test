@@ -95,6 +95,8 @@ class PhotosList extends StatelessWidget {
     print('test/branch2');
     print('test/branch2/onemoreupdateinsamebranch');
 
+    print('branch4 -3 - commit');
+
     return GridView.builder(
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 3,
